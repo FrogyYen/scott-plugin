@@ -1,5 +1,5 @@
-// Package plugindemo a demo plugin.
-package plugindemo
+// Package scott-plugin a demo plugin.
+package scott-plugin
 
 import (
 	"bytes"

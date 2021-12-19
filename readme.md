@@ -35,7 +35,7 @@ pilot:
 experimental:
   plugins:
     example:
-      moduleName: github.com/traefik/plugindemo
+      moduleName: github.com/traefik/scott-plugin
       version: v0.2.1
 ```
 
@@ -82,7 +82,7 @@ The source code of the plugin should be organized as follows:
     └── src
         └── github.com
             └── traefik
-                └── plugindemo
+                └── scott-plugin
                     ├── demo.go
                     ├── demo_test.go
                     ├── go.mod
@@ -99,10 +99,10 @@ pilot:
 experimental:
   localPlugins:
     example:
-      moduleName: github.com/traefik/plugindemo
+      moduleName: github.com/traefik/scott-plugin
 ```
 
-(In the above example, the `plugindemo` plugin will be loaded from the path `./plugins-local/src/github.com/traefik/plugindemo`.)
+(In the above example, the `scott-plugin` plugin will be loaded from the path `./plugins-local/src/github.com/traefik/scott-plugin`.)
 
 ```yaml
 # Dynamic configuration
@@ -265,4 +265,4 @@ In order for your plugin to be successfully imported by Traefik Pilot, consult t
 
 This repository includes an example plugin, `demo`, for you to use as a reference for developing your own plugins.
 
-[![Build Status](https://github.com/traefik/plugindemo/workflows/Main/badge.svg?branch=master)](https://github.com/traefik/plugindemo/actions)
+[![Build Status](https://github.com/traefik/scott-plugin/workflows/Main/badge.svg?branch=master)](https://github.com/traefik/scott-plugin/actions)

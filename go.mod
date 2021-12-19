@@ -1,3 +1,3 @@
-module github.com/traefik/plugindemo
+module github.com/FrogyYen/scott-plugin
 
 go 1.16
